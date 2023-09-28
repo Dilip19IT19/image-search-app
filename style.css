@@ -162,7 +162,7 @@ html{
   background-color: rgb(223, 215, 250);
   border-radius: 10px;
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-30%);
   display: none;
