@@ -162,7 +162,7 @@ html{
   background-color: rgb(223, 215, 250);
   border-radius: 10px;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%,-30%);
   display: none;
@@ -285,12 +285,12 @@ html{
 
 .error-box{
   width: 270px;
-  padding: 8px;
+  padding: 9px;
   text-align: center;
   background-color: rgb(223, 215, 250);
   border-radius: 10px;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%,-30%);
  
@@ -303,6 +303,7 @@ html{
   background-color: rgb(221, 55, 94);
   border-radius: 5px;
   margin-top: 9px;
+  margin-bottom:3px;
   cursor: pointer;
   transition: transform 200ms ease-in;
 }
