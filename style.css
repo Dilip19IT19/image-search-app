@@ -153,6 +153,7 @@ html{
 
 ion-icon{
   font-size: 45px;
+  color: white;
   transition: all ease 260ms;
 }
 
