@@ -131,7 +131,7 @@ html{
   display: flex;
   align-items: center;
   gap:20px;
-  
+  background-color: transparent;
   justify-content: center;
 }
 
@@ -140,7 +140,7 @@ html{
 }
 
 .btns .top{
-  background-color: aquamarine;
+  
   border: none;
   font-size: 30px;
   border-radius: 3px;
@@ -148,12 +148,19 @@ html{
   margin-bottom: 5px;
   display: none;
   text-decoration: none;
+  background-color: transparent;
 }
 
-.btns .top:active{
+ion-icon{
+  font-size: 45px;
+  transition: all ease 260ms;
+}
+
+ion-icon:hover{
   transform:scale(0.7);
-
 }
+
+
 
 .error-box{
   width: 330px;
@@ -306,6 +313,11 @@ html{
   margin-bottom:3px;
   cursor: pointer;
   transition: transform 200ms ease-in;
+}
+
+ion-icon{
+  font-size: 32px;
+  transition: all ease 260ms;
 }
 
 }
